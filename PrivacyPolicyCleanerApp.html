@@ -25,7 +25,7 @@
 <table>
 <tr><th>Data / permission</th><th>Why the App needs it</th><th>Leaves your device?</th></tr>
 <tr><td>Photos &amp; Videos (Photo Library)</td><td>Find duplicate, similar, screenshot and large media; compress and delete items you select; import into the private vault.</td><td>No</td></tr>
-<tr><td>Contacts</td><td>Display, search, find duplicates, merge, back up and export contacts.</td><td>No. A backup or export is created only when you choose to, and is saved or shared where you decide.</td></tr>
+<tr><td>Contacts</td><td>Display, search, find duplicates, merge, back up and export contacts.</td><td>Only when you choose to. <em>Backup</em> saves a .vcf file to your own iCloud Drive (this requires iCloud Drive to be turned on), and <em>Export</em> opens the iOS share sheet so you decide where the file goes. These files are stored by Apple under your Apple ID, not on our servers.</td></tr>
 <tr><td>Camera &amp; Microphone</td><td>Only when you capture a photo or video inside the App (Private Photos).</td><td>No</td></tr>
 <tr><td>Face ID / Touch ID</td><td>To unlock the Private Photos feature. The App receives only a success or failure result and never has access to your biometric data.</td><td>No</td></tr>
 <tr><td>Battery information</td><td>To display your battery level and status.</td><td>No</td></tr>
@@ -38,6 +38,7 @@
 <ul>
 <li><strong>Firebase Analytics (Google)</strong> &ndash; collects app usage events and device/app information such as device model, OS version, app version, language, approximate region and an app-instance identifier, to help us improve the App. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</li>
 <li><strong>Firebase Remote Config (Google)</strong> &ndash; delivers app configuration and feature settings to your device.</li>
+<li><strong>Apple iCloud Drive</strong> &ndash; used only if you tap Backup for contacts. The backup file is stored in your personal iCloud account and is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
 <li><strong>Apple App Store / StoreKit</strong> &ndash; processes purchases and subscriptions. We validate purchase receipts with Apple to unlock premium features. We do not receive or store your payment card details or Apple ID credentials.</li>
 </ul>
 <p>The App also checks a small configuration file hosted on our website. Requesting it may expose your IP address to the hosting provider (GitHub Pages) as with any web request.</p>
